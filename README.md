@@ -9,6 +9,13 @@ https://x-plane.vip/quickmade/
 * QGMC710
 * QMCP737C 
 
+## Usage ##
+
+installer is provided
+
+Qmdev_setup.exe is for Windows user only
+
+Qmdev_setup.jar is for Windows/Linux/Mac users
 
 ## feature ##
 
