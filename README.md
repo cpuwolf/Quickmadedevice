@@ -27,6 +27,7 @@ Qmdev_setup.jar is for Windows/Linux/Mac users
 
 ## Screenshot ##
 
+![qmdev](qmdev_setup.jpg)
 ![qmdev](nocost.jpg)
 
 ## Linux ##
