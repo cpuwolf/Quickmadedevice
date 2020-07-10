@@ -35,7 +35,9 @@ edit hidraw device access permission
 
 sudo vim /etc/udev/rules.d/99-joysticks.rules
 
+KERNEL=="event*", NAME="input/%k", MODE="0666", GROUP="input"
 KERNEL=="hidraw*", SUBSYSTEM=="hidraw", MODE="0666", GROUP="input"
+
 
 ### Linux Installation ##
 java -jar Qmdev_Setup.jar
