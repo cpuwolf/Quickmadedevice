@@ -9,7 +9,7 @@ https://x-plane.vip/quickmade/
 * QGMC710
 * QMCP737C 
 
-## feature ##
+## Feature ##
 
 * no framerate impact
 * rotation acceleration
@@ -36,7 +36,7 @@ under X-Plane plugin menu, you can find qmdev plugin, there is QMCP737C auto key
 
 
 
-## more documents
+## More documents
 
 https://github.com/cpuwolf/Quickmadedevice/wiki
 
