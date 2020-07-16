@@ -9,6 +9,10 @@ https://x-plane.vip/quickmade/
 * QGMC710
 * QMCP737C 
 
+## Download
+
+https://github.com/cpuwolf/Quickmadedevice/releases
+
 ## Usage ##
 
 installer is provided
