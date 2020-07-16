@@ -9,6 +9,12 @@ https://x-plane.vip/quickmade/
 * QGMC710
 * QMCP737C 
 
+## feature ##
+
+* no framerate impact
+* rotation acceleration
+* joystick keys auto assignment
+
 ## Download
 
 https://github.com/cpuwolf/Quickmadedevice/releases
@@ -27,11 +33,11 @@ under X-Plane plugin menu, you can find qmdev plugin, there is QMCP737C auto key
 
 
 
-## feature ##
 
-* no framerate impact
-* rotation acceleration
-* joystick keys auto assignment
+
+## more documents
+
+https://github.com/cpuwolf/Quickmadedevice/wiki
 
 ## Screenshot ##
 
