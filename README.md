@@ -64,3 +64,10 @@ fix Linux Kernel joystick button max number limitation
 
 https://patchwork.kernel.org/patch/11657985/
 
+## Version Info ##
+### V2.0 ###
+optimize performance further more
+add new keyword DFKEY to .cfg
+add disfast dataref for temporarily disabling fast key
+add QCDU, QG1K devices
+
