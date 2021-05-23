@@ -4,10 +4,41 @@ Quickmade devices USB hid handling plugin for X-Plane 11
 
 https://x-plane.vip/quickmade/
 
+
 ## Quickmade Products ##
 
-* QGMC710
-* QMCP737C 
+### QGMC710
+
+  * hotstart TBM-900
+  * and General Aviation aircrafts
+https://www.youtube.com/embed/bnwsJ89BorU
+ 
+
+### QMCP737C
+
+   * zibo Boeing 737
+   * IXEG 737
+   * Flightfactor 757/767
+   * and General Aviation aricrafts
+https://www.youtube.com/embed/NRezZiCWqME
+
+### QCDU B737/A320
+
+  * zibo Boeing 737
+  * Flightfactor 757/767
+  * Flightfactor FF320
+  * and General Aviation aircrafts
+  
+### QG1K PFD/MFD
+
+  * hotstart TBM-900
+  * and General Aviation aircrafts with G1000
+  
+  
+### QFCU
+
+  * Flightfactor 320
+  * Toliss A319/A321
 
 ## Feature ##
 
@@ -27,14 +58,14 @@ Qmdev_setup.exe is for Windows user only
 
 Qmdev_setup.jar is for Windows/Linux/Mac users
 
-![qmdev](qmdevinstaller.gif)
+![qmdev](img/qmdevinstaller.gif)
 
 ## Auto Key assignment
 
 under X-Plane plugin menu, you can find qmdev plugin, there is QMCP737C auto key assignment window, follow the window to automatically assign 104 buttons
 
 
-![qmdev](autokey.JPG)
+![qmdev](img/autokey.JPG)
 
 
 
@@ -44,8 +75,8 @@ https://github.com/cpuwolf/Quickmadedevice/wiki
 
 ## Screenshot ##
 
-![qmdev](qmdev_setup.jpg)
-![qmdev](nocost.jpg)
+![qmdev](img/qmdev_setup.jpg)
+![qmdev](img/nocost.jpg)
 
 ## Linux ##
 
@@ -58,7 +89,7 @@ KERNEL=="event*", NAME="input/%k", MODE="0666", GROUP="input"
 KERNEL=="hidraw*", SUBSYSTEM=="hidraw", MODE="0666", GROUP="input"
 
 
-### Linux Installation ##
+### Linux/Macos Installation ##
 java -jar Qmdev_Setup.jar
 
 ### Linux Kernel contribution ###
