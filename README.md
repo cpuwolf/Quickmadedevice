@@ -65,7 +65,7 @@ Qmdev_setup.jar is for Windows/Linux/Mac users
 under X-Plane plugin menu, you can find qmdev plugin, there is QMCP737C auto key assignment window, follow the window to automatically assign 104 buttons
 
 
-![qmdev](img/autokey.JPG)
+![qmdev](blob/master/img/autokey.JPG)
 
 
 
