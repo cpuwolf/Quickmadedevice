@@ -27,6 +27,8 @@ Qmdev_setup.exe is for Windows user only
 
 Qmdev_setup.jar is for Windows/Linux/Mac users
 
+![qmdev](qmdevinstaller.gif)
+
 ## Auto Key assignment
 
 under X-Plane plugin menu, you can find qmdev plugin, there is QMCP737C auto key assignment window, follow the window to automatically assign 104 buttons
