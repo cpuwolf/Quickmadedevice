@@ -50,13 +50,12 @@ https://www.youtube.com/embed/NRezZiCWqME
 
 https://github.com/cpuwolf/Quickmadedevice/releases
 
-## Install
+## Install on Windows
 
 installer is provided
 
 Qmdev_setup.exe is for Windows user only
 
-Qmdev_setup.jar is for Windows/Linux/Mac users
 
 ![qmdev](img/qmdevinstaller.gif)
 
@@ -79,7 +78,7 @@ https://github.com/cpuwolf/Quickmadedevice/wiki
 ![qmdev](img/qmdev_setup.jpg)
 ![qmdev](img/nocost.jpg)
 
-### Linux/MacOS Installation ##
+### Install on Linux/MacOS ##
 java -jar Qmdev_Setup.jar
 
 ## Linux Manual Configuration ##
