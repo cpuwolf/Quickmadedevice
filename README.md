@@ -60,9 +60,10 @@ Qmdev_setup.jar is for Windows/Linux/Mac users
 
 ![qmdev](img/qmdevinstaller.gif)
 
-## Auto Key assignment
+## Auto Key assignment (not a must)
 
-under X-Plane plugin menu, you can find qmdev plugin, there is QMCP737C auto key assignment window, follow the window to automatically assign 104 buttons
+starting from V4.0, auto key assignment is used to clear your native X-Plane 11 key assginment
+under X-Plane plugin menu, you can find qmdev plugin, there will shows up a auto key assignment window, follow the window to automatically clear buttons
 
 
 ![qmdev](img/autokey.JPG)
@@ -78,7 +79,10 @@ https://github.com/cpuwolf/Quickmadedevice/wiki
 ![qmdev](img/qmdev_setup.jpg)
 ![qmdev](img/nocost.jpg)
 
-## Linux ##
+### Linux/MacOS Installation ##
+java -jar Qmdev_Setup.jar
+
+## Linux Manual Configuration ##
 
 edit hidraw device access permission
 
@@ -89,8 +93,6 @@ KERNEL=="event*", NAME="input/%k", MODE="0666", GROUP="input"
 KERNEL=="hidraw*", SUBSYSTEM=="hidraw", MODE="0666", GROUP="input"
 
 
-### Linux/Macos Installation ##
-java -jar Qmdev_Setup.jar
 
 ### Linux Kernel contribution ###
 fix Linux Kernel joystick button max number limitation
