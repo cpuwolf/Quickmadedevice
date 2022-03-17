@@ -105,3 +105,12 @@ add new keyword DFKEY to .cfg
 add disfast dataref for temporarily disabling fast key
 add QCDU, QG1K devices
 
+### V5.0 ###
+remove dependency of FlyWithLua, because Flywithlua costs fps, which cannot meet my expectation
+introduce builtin ulua
+
+## For Developers ##
+
+How to write your own aircraft config file
+
+https://github.com/cpuwolf/Quickmadedevice/wiki/Qmdev-.cfg-files
