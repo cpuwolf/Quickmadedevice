@@ -9,36 +9,44 @@ https://x-plane.vip/quickmade/
 
 ### QGMC710
 
-  * hotstart TBM-900
+  * Hotstart TBM-900 v1.1.13
   * and General Aviation aircrafts
-https://www.youtube.com/embed/bnwsJ89BorU
+    https://www.youtube.com/embed/bnwsJ89BorU
  
 
 ### QMCP737C
 
-   * zibo Boeing 737
-   * IXEG 737
-   * Flightfactor 757/767
+   * ZIBO Boeing 738 3.51.7
+   * Level-up Boeing 736/737/739
+   * MAX team design 737MAX
+   * IXEG 737 1.33
+   * Flightfactor 757/767 v2.5.4
+   * Flightfactor 777 1.9.15
    * and General Aviation aricrafts
-https://www.youtube.com/embed/NRezZiCWqME
+     https://www.youtube.com/embed/NRezZiCWqME
 
 ### QCDU B737/A320
 
-  * zibo Boeing 737
-  * Flightfactor 757/767
-  * Flightfactor FF320
-  * and General Aviation aircrafts
+   * ZIBO Boeing 738 3.51.7
+   * Level-up Boeing 736/737/739
+   * IXEG 737-300 1.33
+   * Flightfactor 757/767 v2.5.4
+   * Flightfactor 777 1.9.15
+   * Flightfactor FF320
+   * and General Aviation aircrafts
   
 ### QG1K PFD/MFD
 
-  * hotstart TBM-900
+  * hotstart TBM-900 v1.1.13
   * and General Aviation aircrafts with G1000
   
   
 ### QFCU
 
-  * Flightfactor 320
-  * Toliss A319/A321
+  * Flightfactor 320 v1.2.5 beta
+  * Toliss A319/A321 v1.6.3
+  * Toliss A340
+  * JARDesign A330/A320
 
 ## Feature ##
 
