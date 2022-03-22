@@ -5,6 +5,10 @@ Quickmade devices USB hid handling plugin for X-Plane 11
 https://x-plane.vip/quickmade/
 
 
+for MSFS2020 support
+
+https://www.quickmadesim.com/
+
 ## Quickmade Products ##
 
 ### QGMC710
