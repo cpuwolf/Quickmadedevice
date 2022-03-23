@@ -26,6 +26,7 @@ https://www.quickmadesim.com/
    * IXEG 737 1.33
    * Flightfactor 757/767 v2.5.4
    * Flightfactor 777 1.9.15
+   * Toliss A319/A321 v1.6.3
    * and General Aviation aricrafts
      https://www.youtube.com/embed/NRezZiCWqME
 
