@@ -1,8 +1,8 @@
 # Quickmadedevice
 
-Quickmade devices USB HID handling plugin for X-Plane 11. It has great extensivebility to add more aircrafts on your own.
+Quickmade devices USB HID handling plugin for X-Plane 11. It has great extensibility to add more aircrafts on your own.
 
-its built-in Lua Language engine is easy for beginner programming
+its built-in Lua Language engine is easy for programming beginner
 
 https://x-plane.vip/quickmade/
 
@@ -16,6 +16,7 @@ https://www.quickmadesim.com/
  * zero FPS impact
  * Lua language engine built-in
  * easy config files
+ * easy debug: instant reload config file and lua files without restarting X-Plane
 
 ## Quickmade Products ##
 
