@@ -97,10 +97,14 @@ https://github.com/cpuwolf/Quickmadedevice/wiki
 ![qmdev](img/qmdev_setup.jpg)
 ![qmdev](img/nocost.jpg)
 
-### Install on Linux/MacOS ##
+### Install on Linux/MacOS ###
 java -jar Qmdev_Setup.jar
 
-## Linux Manual Configuration ##
+#### Ubuntu18.04 openJDK requirement ####
+
+sudo apt install openjdk-11-jre
+
+#### Linux Manual Configuration ####
 
 edit hidraw device access permission
 
@@ -112,7 +116,7 @@ KERNEL=="hidraw*", SUBSYSTEM=="hidraw", MODE="0666", GROUP="input"
 
 
 
-### Linux Kernel contribution ###
+#### Linux Kernel contribution ####
 fix Linux Kernel joystick button max number limitation
 
 https://patchwork.kernel.org/patch/11657985/
