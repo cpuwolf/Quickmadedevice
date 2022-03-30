@@ -13,10 +13,13 @@ https://www.quickmadesim.com/
 
 # Features
 
- * zero FPS impact
+ * zero framerate(FPS) impact
+ * joystick keys auto assignment (manually assign hundreds of keys is a great pain)
+ * rotatory knob acceleration
  * Lua language engine built-in
  * easy config files
  * easy debug: instant reload config file and lua files without restarting X-Plane
+
 
 ## Quickmade Products ##
 
@@ -61,12 +64,6 @@ https://www.quickmadesim.com/
   * Toliss A319/A321 v1.6.3
   * Toliss A340
   * JARDesign A330/A320
-
-## Feature ##
-
-* no framerate impact
-* rotation acceleration
-* joystick keys auto assignment
 
 ## Download
 
