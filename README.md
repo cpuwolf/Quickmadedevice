@@ -21,6 +21,7 @@ https://sourceforge.net/projects/qmdevsimconnect/
  * Lua language engine built-in
  * easy debug: instant reload config file and lua files without restarting X-Plane
  * aircraft simulated failure sync
+ * running on Win/Lin/Mac
  * Native M1 support
 
 
