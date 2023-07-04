@@ -1,6 +1,6 @@
 # Quickmadedevice
 
-Quickmade devices USB HID handling plugin for X-Plane 11. It has great extensibility to add more aircrafts on your own.
+Quickmade devices USB HID handling plugin for X-Plane 11/12. It has great extensibility to add more aircrafts on your own.
 
 its built-in Lua Language engine is easy for programming beginner
 
@@ -9,7 +9,8 @@ https://x-plane.vip/quickmade/
 
 for MSFS2020 support
 
-https://www.quickmadesim.com/ 
+https://www.quickmadesim.com/
+https://sourceforge.net/projects/qmdevsimconnect/
 
 # Features
 
@@ -17,8 +18,8 @@ https://www.quickmadesim.com/
  * joystick keys auto assignment (manually assign hundreds of keys is a great pain)
  * rotatory knob acceleration
  * Lua language engine built-in
- * easy config files
  * easy debug: instant reload config file and lua files without restarting X-Plane
+ * Native M1 support
 
 
 ## Quickmade Products ##
@@ -80,7 +81,7 @@ Qmdev_setup.exe is for Windows user only
 
 ## Auto Key assignment (not a must)
 
-starting from V4.0, auto key assignment is used to clear your native X-Plane 11 key assginment
+starting from V4.0, auto key assignment is used to clear your native X-Plane 11/12 key assginment
 under X-Plane plugin menu, you can find qmdev plugin, there will shows up a auto key assignment window, follow the window to automatically clear buttons
 
 
@@ -131,6 +132,14 @@ add QCDU, QG1K devices
 ### V5.0 ###
 remove dependency of FlyWithLua, because Flywithlua costs fps, which cannot meet my expectation
 introduce builtin ulua
+
+### V6.0 ###
+native MacOS M1 support
+remove all .cfg file, and add content into lua
+
+### V6.1 ###
+add pop up window while it is reading the lua files
+
 
 ## For Developers ##
 
