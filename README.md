@@ -143,6 +143,38 @@ remove all .cfg file, and add content into lua
 ### V6.1 ###
 add pop up window while it is reading the lua files
 
+### V6.3 ###
+
+This update requires you to update QFCU firmware
+https://www.quickmadesim.com/?page_id=658&lang=en
+
+Core Changes:
+
+Qmdev core a bug fix in reading back wrong Dataref value
+update X-Plane SDK 4.0.1
+a USB log error fix
+
+Lua scripts Changes:
+
+add QFCU default XP12 A333 support
+
+Update Toliss Airbus XP12 QFCU brightness control change
+Update Toliss Airbus XP12 QFCU power on/off logic
+Update Toliss Airbus XP12 QCDU power on/off logic
+Update IXEG B737 classic plus XP12 QMCP737 A/T LED light
+Update IXEG B737 classic plus XP12 QCDU EXEC light
+
+Update ZIBO B737 XP12 QCDU EXEC light
+Update Flightfactor B757 XP12 QCDU EXEC/MSG lights
+Update Flightfactor B757 XP12 QMCP737C IAS/MACH logic
+Update Flightfactor A320 XP12 QFCU power on/off logic
+Update Flightfactor A320 XP12 QCDU power on/off logic
+
+fix Toliss Airbus XP12 QFCU SPD/HDG preselect function
+fix Toliss Airbus XP12 QFCU EFIS Baro bias 
+fix Flightfactor A320 XP12 QFCU SPD/HDG preselect function
+fix JarDesign Airbus QFCU HDG/ALT/BARO rotation function
+
 
 ## For Developers ##
 
