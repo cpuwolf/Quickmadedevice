@@ -19,10 +19,11 @@ https://sourceforge.net/projects/qmdevsimconnect/
  * joystick keys auto assignment (manually assign hundreds of keys is a great pain)
  * rotatory knob acceleration
  * Lua language engine built-in
- * easy debug: instant reload config file and lua files without restarting X-Plane
+ * easy debug: instant reload lua files without restarting X-Plane
+ * aircraft cold and dark sync
  * aircraft simulated failure sync
  * running on Win/Lin/Mac
- * Native M1 support
+ * Native Apple ARM support
 
 
 ## Quickmade Products ##
