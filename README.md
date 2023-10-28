@@ -30,44 +30,43 @@ https://sourceforge.net/projects/qmdevsimconnect/
 
 ### QGMC710
 
-  * Hotstart TBM-900 v1.1.13
+  * Hotstart TBM-900
   * and General Aviation aircrafts
     https://www.youtube.com/embed/bnwsJ89BorU
  
 
 ### QMCP737C
 
-   * ZIBO Boeing 738 3.51.7
-   * Level-up Boeing 736/737/739
-   * MAX team design 737MAX
-   * IXEG 737 1.33
-   * Flightfactor 757/767 v2.5.4
-   * Flightfactor 777 1.9.15
-   * Toliss A319/A321 v1.6.3
+   * ZIBO Boeing B738
+   * Level-up Boeing B736/737/739
+   * MAX team design B737MAX
+   * IXEG B737-300
+   * Flightfactor B757/767
+   * Flightfactor B777
+   * Toliss A319/A321
    * and General Aviation aricrafts
      https://www.youtube.com/embed/NRezZiCWqME
 
 ### QCDU B737/A320
 
-   * ZIBO Boeing 738 3.51.7
-   * Level-up Boeing 736/737/739
-   * IXEG 737-300 1.33
-   * Flightfactor 757/767 v2.5.4
-   * Flightfactor 777 1.9.15
+   * ZIBO Boeing B738
+   * Level-up Boeing B736/B737/B739
+   * IXEG B737-300
+   * Flightfactor B757/767
+   * Flightfactor B777
    * Flightfactor FF320
    * and General Aviation aircrafts
   
 ### QG1K PFD/MFD
 
-  * hotstart TBM-900 v1.1.13
+  * hotstart TBM-900
   * and General Aviation aircrafts with G1000
   
   
 ### QFCU
 
-  * Flightfactor 320 v1.2.5 beta
-  * Toliss A319/A321 v1.6.3
-  * Toliss A340
+  * Flightfactor A320
+  * Toliss A319/A321/A340
   * JARDesign A330/A320
 
 ## Download
