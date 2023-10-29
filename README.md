@@ -189,10 +189,6 @@ Lua scripts Changes:
 
 ## For Developers ##
 
-How to write your own aircraft config file
-
-https://github.com/cpuwolf/Quickmadedevice/wiki/Qmdev-.cfg-files
-
 How to write your own .lua scripts file
 
 https://github.com/cpuwolf/Quickmadedevice/wiki/Qmdev-.lua-files
