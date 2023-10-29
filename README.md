@@ -105,9 +105,11 @@ https://github.com/cpuwolf/Quickmadedevice/wiki
 java -jar Qmdev_Setup.jar
 
 #### MacOS ####
-execute below commands from Terminal
+execute below commands from Terminal if necessary 
+```
 cd <...>/X-Plane 12/Resources/plugins/qmdev
 xattr -dr com.apple.quarantine *
+```
 
 #### Ubuntu18.04 openJDK requirement ####
 
