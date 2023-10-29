@@ -102,18 +102,22 @@ https://github.com/cpuwolf/Quickmadedevice/wiki
 ![qmdev](img/nocost.jpg)
 
 ### Install on Linux/MacOS ###
-java -jar Qmdev_Setup.jar
 
-#### MacOS ####
-execute below commands from Terminal if necessary 
+
+#### Install on MacOS ####
+1. download and install Java from (https://www.java.com/en/download/)
+1. execute below commands from Terminal
 ```
+java -jar Qmdev_Setup.jar
 cd <...>/X-Plane 12/Resources/plugins/qmdev
 xattr -dr com.apple.quarantine *
 ```
 
-#### Ubuntu18.04 openJDK requirement ####
-
+####  Install on Ubuntu 18.04  ####
+```
 sudo apt install openjdk-11-jre
+java -jar Qmdev_Setup.jar
+```
 
 #### Linux Manual Configuration ####
 
