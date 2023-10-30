@@ -97,6 +97,8 @@ under X-Plane plugin menu, you can find qmdev plugin, there will shows up a auto
 https://github.com/cpuwolf/Quickmadedevice/wiki
 
 ## Screenshot ##
+<img width="354" alt="截屏2023-10-30 08 16 39" src="https://github.com/cpuwolf/Quickmadedevice/assets/1320329/d13b6540-eba4-422a-98b9-1ef75fbf7c59">
+
 
 ![qmdev](img/qmdev_setup.jpg)
 ![qmdev](img/nocost.jpg)
@@ -188,6 +190,7 @@ Lua scripts Changes:
 
 
 ## For Developers ##
+
 
 How to write your own .lua scripts file
 
