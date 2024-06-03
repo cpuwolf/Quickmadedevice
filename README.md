@@ -69,6 +69,12 @@ https://sourceforge.net/projects/qmdevsimconnect/
   * Toliss A319/A321/A340
   * JARDesign A330/A320
 
+### QMPE
+  * Toliss Airbus
+  * Flightfactor A320
+  * other general aircraft
+
+
 ## Download
 
 https://github.com/cpuwolf/Quickmadedevice/releases
