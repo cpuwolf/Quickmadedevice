@@ -26,53 +26,9 @@ https://sourceforge.net/projects/qmdevsimconnect/
  * Native Apple ARM support
 
 
-## Quickmade Products ##
+## Game Compatibility List ##
 
-### QGMC710
-
-  * Hotstart TBM-900
-  * and General Aviation aircrafts
-    https://www.youtube.com/embed/bnwsJ89BorU
- 
-
-### QMCP737C
-
-   * ZIBO Boeing B738
-   * Level-up Boeing B736/737/739
-   * MAX team design B737MAX
-   * IXEG B737-300
-   * Flightfactor B757/767
-   * Flightfactor B777
-   * Toliss A319/A321
-   * and General Aviation aricrafts
-     https://www.youtube.com/embed/NRezZiCWqME
-
-### QCDU B737/A320
-
-   * ZIBO Boeing B738
-   * Level-up Boeing B736/B737/B739
-   * IXEG B737-300
-   * Flightfactor B757/767
-   * Flightfactor B777
-   * Flightfactor FF320
-   * and General Aviation aircrafts
-  
-### QG1K PFD/MFD
-
-  * hotstart TBM-900
-  * and General Aviation aircrafts with G1000
-  
-  
-### QFCU
-
-  * Flightfactor A320
-  * Toliss A319/A321/A340
-  * JARDesign A330/A320
-
-### QMPE
-  * Toliss Airbus
-  * Flightfactor A320
-  * other general aircraft
+https://docs.qq.com/sheet/DWERFQnRmVUFZeHBi?tab=00...
 
 
 ## Download
