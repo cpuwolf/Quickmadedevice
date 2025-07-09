@@ -1,25 +1,23 @@
 # Quickmadedevice
 
-Quickmade devices USB handling plugin for X-Plane 11/12. It has great extensibility to add more aircrafts on your own.
+Quickmade devices USB handling plugin for X-Plane 11/12. It has great extensibility to add more aircraft on your own.
 
-its built-in Lua Language engine is easy for programming beginner
+Its built-in Lua Language engine is easy for programming beginners
 
 https://x-plane.vip/quickmade/
 
 
-for MSFS2020 support
+for X-Plane 11/12/MSFS2020/2024 support
 
-https://www.quickmadesim.com/
-
-https://sourceforge.net/projects/qmdevsimconnect/
+https://www.quickmadesim.com/?page_id=194&lang=en
 
 # Features
 
  * zero framerate(FPS) impact
- * joystick keys auto assignment (manually assign hundreds of keys is a great pain)
+ * joystick keys auto assignment (manually assigning hundreds of keys is a great pain)
  * rotatory knob acceleration
  * Lua language engine built-in
- * easy debug: instant reload lua files without restarting X-Plane
+ * easy debug: instant reload of Lua files without restarting X-Plane
  * aircraft cold and dark sync
  * aircraft simulated failure sync
  * running on Win/Lin/Mac
@@ -35,26 +33,12 @@ https://docs.qq.com/sheet/DWERFQnRmVUFZeHBi?tab=00...
 
 https://github.com/cpuwolf/Quickmadedevice/releases
 
-## Install on Windows
-
-installer is provided
-
-Qmdev_setup.exe is for Windows user only
-
+## An installer is provided
 
 ![qmdev](img/qmdevinstaller.gif)
 
-## Auto Key assignment (not a must)
 
-starting from V4.0, auto key assignment is used to clear your native X-Plane 11/12 key assginment
-under X-Plane plugin menu, you can find qmdev plugin, there will shows up a auto key assignment window, follow the window to automatically clear buttons
-
-
-![qmdev](img/autokey.JPG)
-
-
-
-## More documents
+## More Lua Developer documents
 
 https://github.com/cpuwolf/Quickmadedevice/wiki
 
