@@ -1,143 +1,119 @@
-# Quickmadedevice
+# QuickmadeSim Device Plugin (Qmdev)
 
-Quickmade devices USB handling plugin for X-Plane 11/12. It has great extensibility to add more aircraft on your own.
+This is the QuickmadeSim device USB driver software designed for X-Plane 11/12 and MSFS 2020/2024.
+It boasts powerful extensibility, with a built-in Lua language engine that is very friendly to programming beginners, allowing you to easily add support for your own aircraft.
 
-Its built-in Lua Language engine is easy for programming beginners
-
-https://x-plane.vip/quickmade/
-
-
-for X-Plane 11/12/MSFS2020/2024 support
-
-https://www.quickmadesim.com/?page_id=194&lang=en
+**Official Website and Support:**
+* Cross-platform support (X-Plane 11/12/MSFS2020/2024): https://www.quickmadesim.com/?page_id=194&lang=en
 
 # Features
 
- * zero framerate(FPS) impact
- * joystick keys auto assignment (manually assigning hundreds of keys is a great pain)
- * rotatory knob acceleration
- * Lua language engine built-in
- * easy debug: instant reload of Lua files without restarting X-Plane
- * aircraft cold and dark sync
- * aircraft simulated failure sync
- * running on Win/Lin/Mac
- * Native Apple ARM support
+*   **Zero Performance Impact**: Absolutely no impact on game frame rates (FPS).
+*   **Automatic Flight Device Key Assignment**: Say goodbye to the pain of manually setting hundreds of keys.
+*   **Smooth Aircraft Switching**: Say goodbye to the hassle of searching the entire internet for configuration files.
+*   **Rotary Knob Acceleration**: Optimizes your operational experience.
+*   **Built-in Lua Language Engine**: Simple to use and easy to customize.
+*   **Easy Debugging**: Instantly reload Lua scripts without restarting X-Plane, speeding up the development process.
+*   **Aircraft State Synchronization**: Supports cold and dark cockpit state synchronization.
+*   **Simulated Failure Synchronization**: Supports synchronization of simulated aircraft failure states.
+*   **Cross-platform Operation**: Fully supports Windows, Linux, and Mac systems.
+*   **Native Apple ARM Support**: Provides native support for Apple M-series chips.
 
+## Game Compatibility List
 
-## Game Compatibility List ##
-
-https://docs.qq.com/sheet/DWERFQnRmVUFZeHBi?tab=00...
-
+Please check the detailed compatibility list via the following link:
+[Quickmade Device Game Compatibility List](https://docs.qq.com/sheet/DWERFQnRmVUFZeHBi?tab=000001)
 
 ## Download
 
-https://github.com/cpuwolf/Quickmadedevice/releases
+You can get the latest version of the plugin from the following address:
+[Latest Version Download](https://gitee.com/cpuwolf/Quickmadedevice/releases)
 
-## An installer is provided
+## Installer
 
-![qmdev](img/qmdevinstaller.gif)
+We provide an easy-to-use installation wizard.
 
+![奎克质造设备安装程序](img/qmdev_mac_install.gif)
 
-## More Lua Developer documents
+## Installation Instructions
 
-https://github.com/cpuwolf/Quickmadedevice/wiki
+### Installing on MacOS
 
-## Screenshot ##
-<img width="354" alt="截屏2023-10-30 08 16 39" src="https://github.com/cpuwolf/Quickmadedevice/assets/1320329/d13b6540-eba4-422a-98b9-1ef75fbf7c59">
+#### **MacOS Installation Steps**
+1. Unzip installer_6_8_mac.zip
+2. Open "Terminal" and execute the following command to allow developers who haven't paid Apple:
+    ```bash
+    xattr -cr installer_6_8_mac.app
+    ```
+3. Run installer_6_8_mac.app
 
+### Installing on Linux
 
-![qmdev](img/qmdev_setup.jpg)
-![qmdev](img/nocost.jpg)
+#### **Ubuntu 18.04 Installation Steps**
+1. Run installer_6_8_lin
 
-### Install on Linux/MacOS ###
+#### **Manual Configuration if Linux Device is Not Found**
 
-
-#### Install on MacOS ####
-1. download and install Java from (https://www.java.com/en/download/)
-1. execute below commands from Terminal
-```
-java -jar Qmdev_Setup.jar
-cd <...>/X-Plane 12/Resources/plugins/qmdev
-xattr -dr com.apple.quarantine *
-```
-
-####  Install on Ubuntu 18.04  ####
-```
-sudo apt install openjdk-11-jre
-java -jar Qmdev_Setup.jar
-```
-
-#### Linux Manual Configuration ####
-
-edit hidraw device access permission
-
+You need to edit the access permissions for hidraw devices.
+```bash
 sudo vim /etc/udev/rules.d/99-joysticks.rules
-
+```
+Add the following content to the file:
+```
 KERNEL=="event*", NAME="input/%k", MODE="0666", GROUP="input"
-
 KERNEL=="hidraw*", SUBSYSTEM=="hidraw", MODE="0666", GROUP="input"
+```
+Reload device rules
+```bash
+sudo udevadm control --reload-rules
+```
 
+#### **Linux Kernel Contribution**
+We fixed the Linux kernel's limitation on the maximum number of joystick buttons, see details here:
+[Linux Kernel Patch](https://patchwork.kernel.org/patch/11657985/)
 
+## Screenshots
 
-#### Linux Kernel contribution ####
-fix Linux Kernel joystick button max number limitation
+![轻松调试](img/menu_reload.png)
+![零性能影响](img/nocost.jpg)
 
-https://patchwork.kernel.org/patch/11657985/
+## Major Version Information
 
-## Version Info ##
-### V2.0 ###
-optimize performance further more
-add new keyword DFKEY to .cfg
-add disfast dataref for temporarily disabling fast key
-add QCDU, QG1K devices
+### **V6.3**
 
-### V5.0 ###
-remove dependency of FlyWithLua, because Flywithlua costs fps, which cannot meet my expectation
-introduce builtin ulua
+*   **Core Changes**:
+    *   Fixed a core bug with incorrect DataRef value readings.
+    *   Updated to X-Plane SDK 4.0.1.
+    *   Fixed a USB log error.
+*   **Lua Script Changes**:
+    *   Added support for the default XP12 A333 for QFCU.
+    *   Updated device logic and functional fixes for various aircraft models (Toliss, IXEG, ZIBO, Flightfactor, JarDesign) under XP12.
+    *   **Note**: This update requires you to simultaneously update your QFCU firmware: [Firmware Update Address](https://www.quickmadesim.com/?page_id=658&lang=en)
 
-### V6.0 ###
-native MacOS M1 support
-remove all .cfg file, and add content into lua
+### **V6.1**
+*   Added a pop-up prompt when reading Lua files.
 
-### V6.1 ###
-add pop up window while it is reading the lua files
+### **V6.0**
+*   Added native support for MacOS M1 chip.
+*   Removed all .cfg configuration files; relevant content has been integrated into Lua scripts.
 
-### V6.3 ###
+### **V5.0**
+*   Removed reliance on FlyWithLua to resolve its performance overhead issues.
+*   Introduced the built-in ulua engine.
 
-This update requires you to update QFCU firmware
-https://www.quickmadesim.com/?page_id=658&lang=en
+### **V2.0**
+*   Further optimized performance.
+*   Added new keyword `DFKEY` for .cfg files.
+*   Added `disfast` dataref to temporarily disable fast keys.
+*   Added support for QCDU, QG1K devices.
 
-Core Changes:
+## For Developers
 
- * Qmdev core a bug fix in reading back wrong Dataref value
- * update X-Plane SDK 4.0.1
- * a USB log error fix
+### **How to Write Your Own .lua Script Files**
 
-Lua scripts Changes:
+We welcome you to write scripts for your favorite aircraft models! For detailed developer documentation, please refer to our Wiki:
+[Qmdev .lua File Writing Guide](https://gitee.com/cpuwolf/Quickmadedevice/wiki/Qmdev-.lua-files)
 
- * add QFCU default XP12 A333 support
+### **More Lua Developer Documentation**
 
- * Update Toliss Airbus XP12 QFCU brightness control change
- * Update Toliss Airbus XP12 QFCU power on/off logic
- * Update Toliss Airbus XP12 QCDU power on/off logic
- * Update IXEG B737 classic plus XP12 QMCP737 A/T LED light
- * Update IXEG B737 classic plus XP12 QCDU EXEC light
-
- * Update ZIBO B737 XP12 QCDU EXEC light
- * Update Flightfactor B757 XP12 QCDU EXEC/MSG lights
- * Update Flightfactor B757 XP12 QMCP737C IAS/MACH logic
- * Update Flightfactor A320 XP12 QFCU power on/off logic
- * Update Flightfactor A320 XP12 QCDU power on/off logic
-
- * fix Toliss Airbus XP12 QFCU SPD/HDG preselect function
- * fix Toliss Airbus XP12 QFCU EFIS Baro bias 
- * fix Flightfactor A320 XP12 QFCU SPD/HDG preselect function
- * fix JarDesign Airbus QFCU HDG/ALT/BARO rotation function
-
-
-## For Developers ##
-
-
-How to write your own .lua scripts file
-
-https://github.com/cpuwolf/Quickmadedevice/wiki/Qmdev-.lua-files
+[Visit the Developer Documentation Center](https://gitee.com/cpuwolf/Quickmadedevice/wiki)
