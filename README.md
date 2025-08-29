@@ -1,3 +1,7 @@
+GitHub just got less independent at Microsoft after CEO resignation
+So I have migrated this project to our Chinese website https://gitee.com/cpuwolf/qmdev
+
+
 # QuickmadeSim Device Plugin (Qmdev)
 
 This is the QuickmadeSim device USB driver software designed for X-Plane 11/12 and MSFS 2020/2024.
