@@ -1,3 +1,5 @@
+# This web page is abandoned, later update you can find https://gitee.com/cpuwolf/qmdev/releases
+
 # Quickmadedevice
 
 Quickmade devices USB handling plugin for X-Plane 11/12. It has great extensibility to add more aircrafts on your own.
